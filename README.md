@@ -1,15 +1,13 @@
 # Ballerina GMail Endpoint
 
-[Gmail](https://www.google.com/gmail/) is a free, Web-based e-mail service provided by Google.
-### Why would you use a Ballerina endpoint for Gmail
+### Overview 
 
-Ballerina GMail endpoint allows you to access the [Gmail REST API](https://developers.google.com/gmail/api/v1/reference/) and perfom actions like creating and sending a simple text mail, mail
-with html content and inline images, mail with attachments, search and get mail etc.
+Ballerina GMail endpoint allows you to access the [Gmail REST API](https://developers.google.com/gmail/api/v1/reference/) and perfom Gmail API operations.
 
 ## Compatibility
-| Language Version                             | Endpoint Version           |
-| ---------------------------------------------|:--------------------------:|
-| ballerina-tools-0.970.0-alpha6-SNAPSHOT      | 0.8.5                      | 
+| Language Version                             | Endpoint Version           | API Verion
+| ---------------------------------------------|:--------------------------:| :--------------:
+| ballerina-tools-0.970.0-alpha6-SNAPSHOT      | 0.8.5                      | v1
 
 ### Getting started
 
