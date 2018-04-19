@@ -1,6 +1,6 @@
 # GMail Connector
 
-GMail connector provides a Ballerina API to access the [Gmail REST API](https://developers.google.com/gmail/api/v1/reference/). It handles OAuth2.0, provides auto completion and type safety.
+GMail connector provides a Ballerina API to access the [Gmail REST API](https://developers.google.com/gmail/api/v1/reference/). It handles [OAuth2.0] (http://tools.ietf.org/html/rfc6749), provides auto completion and type safety.
 
 ## Compatibility
 
@@ -17,7 +17,8 @@ GMail connector provides a Ballerina API to access the [Gmail REST API](https://
         * Access Token
         * Refresh Token
     
-   *Please note that, providing ClientId, Client Secret, Refresh Token are optional if you are only providing a valid Access Token vise versa.*
+       *Please note that, providing ClientId, Client Secret, Refresh Token are optional if you are only providing a valid Access                   
+       Token vise versa.*
     
 3.  Refer https://developers.google.com/identity/protocols/OAuth2 on how to obtain the above for Gmail API.
 
@@ -65,7 +66,7 @@ function main(string... args) {
            string threadId;
            (messageId, threadId) = sendStatus;
            io:println("Sent Message Id : " + messageId);
-           io:println("Send Thread Id : " + threadId);
+           io:println("Sent Thread Id : " + threadId);
        }
        gmail:GMailError e => io:println(e);
    }
