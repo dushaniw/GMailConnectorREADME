@@ -1,6 +1,6 @@
 # GMail Connector
 
-GMail connector provides a Ballerina API to access the [Gmail REST API](https://developers.google.com/gmail/api/v1/reference/). It handles [OAuth2.0] (http://tools.ietf.org/html/rfc6749), provides auto completion and type safety.
+GMail connector provides a Ballerina API to access the [Gmail REST API](https://developers.google.com/gmail/api/v1/reference/). It handles [OAuth2.0](http://tools.ietf.org/html/rfc6749), provides auto completion and type safety.
 
 ## Compatibility
 
